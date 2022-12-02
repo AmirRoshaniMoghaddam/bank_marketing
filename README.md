@@ -33,7 +33,7 @@ The response variable is a binary variable measuring whether the client subscrib
 <br>19 - euribor3m: euribor 3 month rate 
 <br>20 - nr.employed: number of employees
 
-<img src="./assets/corr.png" style="max-width: 360px"/>
+<img src="./assets/corr.png" style="max-width: 240px"/>
 
 ### Data Cleaning and Preprocessing steps:
 
@@ -51,7 +51,7 @@ Since most machine learning models work well when the range of features are rela
 
 ### Distribution of the response variable:
 
-<img src="assets/distribution_y.png" style="max-width: 360px"/>
+<img src="assets/distribution_y.png" style="max-width: 240px"/>
 
 As we can see the distribution of the response variable is imbalanced. Therefore, we need to take some actions to deal with this issue:
 <br>1- We need to make sure that the distribution of the response variable is similar across train, validation and test sets.

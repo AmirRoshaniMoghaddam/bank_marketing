@@ -4,11 +4,11 @@ Capstone Project - Concordia Data Science Bootcamp
 
 ### Overview:
 
-In this project I used the ['Bank Marketing Data Set'](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing) from the University of California, Irvine machine learning respository. The goal of this project is to use machine learning techniques to predict the success of a Portuguese bank's telemarketing calls for selling bank long-term deposits.
+In this project I used the ['Bank Marketing Data Set'](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing) from the University of California, Irvine machine learning respository. The goal of this project is to use machine learning techniques to predict the success of a Portuguese bank's telemarketing calls for selling bank long-term deposits. Before going to the next steps, it is important to understand the goal of the problem. Bank is a 'firm'; therefore, they would like to maximize their profits through different paths ( offering different products, for example).
 
 ### Data:
 
-The original dataset includes over 50,000 instances (collected in a five-year period from 2008 to 2013), and a wide set of features (150 features). Moro, Cortez and Rita (2014) mention that they used a semi-automatic feature selection to reduce the number of features to 22. However, in this project I used the most complete version of the publicly available version of the dataset that includes 41,188 instances and 20 features.
+The original dataset includes around 52,000 instances (collected in a five-year period from 2008 to 2013), and a wide set of features (150 features). Moro, Cortez and Rita (2014) mention that they used a semi-automatic feature selection to reduce the number of features to 22. However, in this project I used the most complete version of the publicly available version of the dataset that includes 41,188 instances and 20 features.
 
 The response variable is a binary variable measuring whether the client subscribed to the bank or not. The set of features available in the dataset is:
 

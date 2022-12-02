@@ -4,7 +4,7 @@ Capstone Project - Concordia Data Science Bootcamp
 
 ### Overview:
 
-In this project I used the 'Bank Marketing Data Set' from the University of California, Irvine machine learning respository. The goal of this project is to use machine learning techniques to predict the success of a Portuguese bank's telemarketing calls for selling bank long-term deposits.
+In this project I used the ['Bank Marketing Data Set'](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing) from the University of California, Irvine machine learning respository. The goal of this project is to use machine learning techniques to predict the success of a Portuguese bank's telemarketing calls for selling bank long-term deposits.
 
 ### Data:
 

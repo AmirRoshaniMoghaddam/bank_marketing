@@ -12,9 +12,9 @@ The original dataset includes over 50,000 instances (collected in a five-year pe
 
 The response variable is a binary variable measuring whether the client subscribed to the bank or not. The set of features available in the dataset is:
 
-1 - age 
-2 - job 
-3 - marital status
+<br>1 - age 
+<br>2 - job 
+<br>3 - marital status
 4 - education 
 5 - default: has credit in default? 
 6 - housing: has housing loan? 

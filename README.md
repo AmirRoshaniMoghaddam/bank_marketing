@@ -65,7 +65,6 @@ To tackle this problem, I use two metrics for performance evaluation of the mode
 <br>2- AUC: shows how much model can distinguish the two different classes.
 
 ### Models used for analysis:
-
 <br>1- Logistic Regression
 <br>2- Support Vector Machines
 <br>3- Decision Trees
@@ -75,7 +74,7 @@ To tackle this problem, I use two metrics for performance evaluation of the mode
 
 I chose the logistic regression as the best predictor. It has a balanced accuracy score of 73.8% on the useen data, and an AUC score of 0.79. 
 
-Mor, Cortez and Rita (2014) model slightly performed better. Why?
+Moro, Cortez and Rita (2014) model slightly performed better. Why?
 
 There are a couple of possible answers for this question:
 <br>1- They had over 11,000 more instances than me.

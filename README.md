@@ -65,6 +65,7 @@ To tackle this problem, I use two metrics for performance evaluation of the mode
 <br>2- AUC: shows how much model can distinguish the two different classes.
 
 ### Models used for analysis:
+I used GridSearchCV to find the best hyperparameters for the models.
 <br>1- Logistic Regression
 <br>2- Support Vector Machines
 <br>3- Decision Trees

@@ -70,10 +70,14 @@ To tackle this problem, I use two metrics for performance evaluation of the mode
 <br>3- Decision Trees
 <br>4- An Ensemble which uses all three models. 
 
+### Performance on the Validation data:
+Model | Logistic Regression | SVM | Decision Trees | Ensemble 
+--- | --- | --- | --- |--- 
+Balanced Accuracy | 72.11% | 72.63% | 69.52% | 72.1%
+
+
 ### Performance on the Unseen data:
-
 I chose the logistic regression as the best predictor. It has a balanced accuracy score of 73.8% on the useen data, and an AUC score of 0.79. 
-
 Moro, Cortez and Rita (2014) model slightly performed better. Why?
 
 There are a couple of possible answers for this question:

@@ -42,6 +42,9 @@ def clean_data(df):
     
     df['y'] = np.where(df['y'] == 'yes', 1, 0)
     df['campaign'] = np.where(df['campaign'] > 9, 9, df['campaign'])
+    df['pdays'] = np.where(df['pdays'] == 999, 0, 1)
+    df['education'] = np.where(((df['education'] == 'basic.4y') | (df['education'] == 'basic.6y') | 
+                                (df['education'] == 'basic.9y')), 'basic', df['education'])
     
     df = pd.get_dummies(df, columns=categoricals, drop_first=True)
     

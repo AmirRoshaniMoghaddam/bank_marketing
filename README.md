@@ -77,7 +77,7 @@ Model | Logistic Regression | SVM | Decision Trees | Ensemble
 Balanced Accuracy | 72.11% | 72.63% | 69.52% | 72.1%
 
 
-### Performance on the Unseen data:
+### Performance on the Unseen Data:
 I chose the logistic regression as the best predictor. It has a balanced accuracy score of 73.8% on the useen data, and an AUC score of 0.79. 
 Moro, Cortez and Rita (2014) model slightly performed better. Why?
 

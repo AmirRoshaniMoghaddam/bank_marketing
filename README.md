@@ -15,25 +15,25 @@ The response variable is a binary variable measuring whether the client subscrib
 <br>1 - age 
 <br>2 - job 
 <br>3 - marital status
-4 - education 
-5 - default: has credit in default? 
-6 - housing: has housing loan? 
-7 - loan: has personal loan? 
-8 - contact: contact communication type 
-9 - month: last contact month of year 
-10 - day_of_week: last contact day of the week 
-11 - duration
-12 - campaign: number of contacts performed during this campaign and for this client (numeric, includes last contact)
-13 - pdays: number of days that passed by after the client was last contacted from a previous campaign (numeric; 999 means client was not previously contacted)
-14 - previous: number of contacts performed before this campaign and for this client
-15 - poutcome: outcome of the previous marketing campaign 
-16 - emp.var.rate: employment variation rate
-17 - cons.price.idx: consumer price index 
-18 - cons.conf.idx: consumer confidence index 
-19 - euribor3m: euribor 3 month rate 
-20 - nr.employed: number of employees
+<br>4 - education 
+<br>5 - default: has credit in default? 
+<br>6 - housing: has housing loan? 
+<br>7 - loan: has personal loan? 
+<br>8 - contact: contact communication type 
+<br>9 - month: last contact month of year 
+<br>10 - day_of_week: last contact day of the week 
+<br>11 - duration
+<br>12 - campaign: number of contacts performed during this campaign and for this client (numeric, includes last contact)
+<br>13 - pdays: number of days that passed by after the client was last contacted from a previous campaign (numeric; 999 means client was not previously contacted)
+<br>14 - previous: number of contacts performed before this campaign and for this client
+<br>15 - poutcome: outcome of the previous marketing campaign 
+<br>16 - emp.var.rate: employment variation rate
+<br>17 - cons.price.idx: consumer price index 
+<br>18 - cons.conf.idx: consumer confidence index 
+<br>19 - euribor3m: euribor 3 month rate 
+<br>20 - nr.employed: number of employees
 
-<img src="C:\Users\brzro\concordia_bootcamp\bank_marketing\assets\corr.png" style="max-width: 360px"/>
+<img src="./assets/corr.png" style="max-width: 360px"/>
 
 ### Data Cleaning and Preprocessing steps:
 
@@ -51,25 +51,25 @@ Since most machine learning models work well when the range of features are rela
 
 ### Distribution of the response variable:
 
-<img src="C:\Users\brzro\concordia_bootcamp\bank_marketing\assets\distribution_y.png" style="max-width: 360px"/>
+<img src="assets/distribution_y.png" style="max-width: 360px"/>
 
 As we can see the distribution of the response variable is imbalanced. Therefore, we need to take some actions to deal with this issue:
-1- We need to make sure that the distribution of the response variable is similar across train, validation and test sets.
-2- We need to use Undersampling or Oversampling. Alternatively, most models include a class_weight hyperparameter that we can set equal to 'balanced' to deal with the issue.
+<br>1- We need to make sure that the distribution of the response variable is similar across train, validation and test sets.
+<br>2- We need to use Undersampling or Oversampling. Alternatively, most models include a class_weight hyperparameter that we can set equal to 'balanced' to deal with the issue.
 
 ### Metrics used to evaluate the performance:
 
 Since the data is imbalanced, using accuracy can be misleading. For example, in this project a model that classifies everyone as someone who does not subscribe to the bank can get a 88.7% accuracy, while having no real value.
 To tackle this problem, I use two metrics for performance evaluation of the model:
-1- Balanced Accuracy Score: The balanced accuracy in binary and multiclass classification problems to deal with imbalanced datasets. It is defined as the average of recall (tp/(tp + fn)) obtained on each class (sklearn documentation). Therefore, such classification (0 to everyone) would result in a balanced accuracy score of 50%.
-2- AUC: shows how much model can distinguish the two different classes.
+<br>1- Balanced Accuracy Score: The balanced accuracy in binary and multiclass classification problems to deal with imbalanced datasets. It is defined as the average of recall (tp/(tp + fn)) obtained on each class (sklearn documentation). Therefore, such classification (0 to everyone) would result in a balanced accuracy score of 50%.
+<br>2- AUC: shows how much model can distinguish the two different classes.
 
 ### Models used for analysis:
 
-1- Logistic Regression
-2- Support Vector Machines
-3- Decision Trees
-4- An Ensemble which uses all three models. 
+<br>1- Logistic Regression
+<br>2- Support Vector Machines
+<br>3- Decision Trees
+<br>4- An Ensemble which uses all three models. 
 
 ### Performance on the Unseen data:
 
@@ -78,9 +78,9 @@ I chose the logistic regression as the best predictor. It has a balanced accurac
 Mor, Cortez and Rita (2014) model slightly performed better. Why?
 
 There are a couple of possible answers for this question:
-1- They had over 11,000 more instances than me.
-2- They had more features available.
-3- Although their data is imbalanced, it is still more balanced than mine.
+<br>1- They had over 11,000 more instances than me.
+<br>2- They had more features available.
+<br>3- Although their data is imbalanced, it is still more balanced than mine.
 
 
 References:

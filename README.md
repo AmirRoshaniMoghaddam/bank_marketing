@@ -10,7 +10,7 @@ In this project I used the ['Bank Marketing Data Set'](https://archive.ics.uci.e
 
 The original dataset includes around 52,000 instances (collected in a five-year period from 2008 to 2013), and a wide set of features (150 features). Moro, Cortez and Rita (2014) mention that they used a semi-automatic feature selection to reduce the number of features to 22. However, in this project I used the most complete version of the publicly available version of the dataset that includes 41,188 instances and 20 features.
 
-The response variable is a binary variable measuring whether the client subscribed to the bank or not. The set of features available in the dataset is:
+The response variable is a binary variable measuring whether the client subscribed to the bank or not. The set of features available in the dataset is (taken from the dataset website):
 
 <br>1 - age 
 <br>2 - job 
